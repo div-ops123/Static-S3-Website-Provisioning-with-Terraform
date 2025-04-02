@@ -11,7 +11,7 @@ terraform {
 
 # Plugin that Terraform uses to create and manage your resources
 provider "aws" {
-  region = "af-south-1"
+  region = var.region
 }
 
 # # Define components of your infrastructure

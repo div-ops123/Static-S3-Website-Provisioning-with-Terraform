@@ -3,3 +3,9 @@ variable "instance_name" {
     type = string
     default = "ExampleAppServer"
 }
+
+variable "region" {
+    description = "AWS region where you want to host the s3 bucket"
+    type = string
+    default = "af-south-1"
+}
